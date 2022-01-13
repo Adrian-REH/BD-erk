@@ -1,0 +1,352 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ñerk
+</name>
+</assembly>
+<members>
+<member name="T:DBÑerk.BDDataSet.Tabla1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Tabla3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DBÑerk.BDDataSet.Us3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DBÑerk.BDDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.Tabla1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.Tabla2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.Tabla3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.Us1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.Us2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.Us3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DBÑerk.BDDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(DBÑerk.BDDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(DBÑerk.BDDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.UpdateAll(DBÑerk.BDDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DBÑerk.BDDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._10122">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._1024px_Angle_down_font_awesome_svg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._1024px_Angle_down_font_awesome_svg___copia">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._1024px_Angle_down_font_awesome_svg___copia__2_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._1024px_Angle_down_font_awesome1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._14532">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._2000px_Infobox_info_icon_svg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._22">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._282283">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._313">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._484613">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._65171">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._65540">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources._69539">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.a63ea5b5a4853bbc0cee3df021e74694_icono_de_herramientas_de_configuraci_n_by_vexels">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Clientes">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.configuration_3620">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.delete_13221">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Double_barred_dollar_sign_svg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.empleados">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.empleados1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.gear">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Ic_close_48px_svg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Ic_close_48px1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Ic_refresh_48px_svg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.icon_cerrar2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.icon_minimizar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.icon_minimizar1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.img_451619">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.min">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Mobile_Menu_Icon">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.o">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.sda">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.search_512">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.seo_social_web_network_internet_262_icon_icons_com_61518">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_11">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_12">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_121">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_122">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_125">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_1251">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_21">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_22">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_23">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.Sin_título_img">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DBÑerk.My.Resources.Resources.stopwatch_1749080_960_720">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:DBÑerk.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>
